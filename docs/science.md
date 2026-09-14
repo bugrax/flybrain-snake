@@ -51,7 +51,7 @@ Reproduce using `uv run python -m scripts.gono_go_propagation` and `uv run pytho
 
 The spike raster displays a fixed sample of LC neurons followed by steering, escape and giant-fiber neurons. Its window spans 1,000 simulation milliseconds, concatenated across independently reset decisions. The exact body IDs are in the episode JSON. Motor bars sum the relevant populations on each side and saturate at 160 spikes. The scene stays visible while the corresponding decision's neural activity is progressively revealed.
 
-The release video uses seed 10, level 4, open maze, 250 ms of neural time per step, and 8 frames per step at 30 fps. Playback is therefore 3.75 game ticks per second. Seed selection and complete decision telemetry are included. The recorded run collected four ordinary food items and ended after 99 steps; it did not collect a bonus.
+The horizontal release video uses a 1920 × 1080 layout with the full LCD beside the neuron panels. It uses seed 10, level 4, open maze, 250 ms of neural time per step, and 8 frames per step at 30 fps. Playback is therefore 3.75 game ticks per second. Seed selection and complete decision telemetry are included. The recorded run collected four ordinary food items and ended after 99 steps; it did not collect a bonus.
 
 ## Sources
 

@@ -1,14 +1,15 @@
-# Flybrain Snake 1.0
+# Flybrain Snake 1.0.1 — horizontal video
 
-3,189 simulated neurons from a fruit-fly connectome control a recreation of Nokia Snake II.
+The demo now uses a native **1920 × 1080, 16:9** composition. The complete Nokia LCD sits on the left; scores, the spike raster, and motor activity sit on the right. Captions and the repository link remain inside the frame without cropping or stretching.
 
-- Play the game with a Nokia-style LCD and handset, wraparound, five maze layouts, nine speed levels, bonus creatures and retro sound.
-- Watch the real connectome subcircuit control it with `uv run python -m flysnake.play --agent fly --seed 10`.
-- Reproduce the 31.4-second video and every recorded decision from the included source and compact derived data.
-- Read the biological provenance and all visual/readout assumptions in the English documentation.
+The complete recorded run is unchanged: seed 10, four food items, 16 points, and a collision after 99 steps. Runtime is 31.4 seconds at 30 fps with English captions and original synthesized sound, encoded as H.264/AAC.
 
-The attached MP4 is 1080 × 1350 at 30 fps, encoded as H.264/AAC. It shows seed 10 collecting four food items for 16 points, then crashing after 99 steps. The complete run is shown with English captions and original synthesized sound. It was selected from 12 seeds; selection results and full telemetry are included in the repository.
+Reproduce it with:
 
-The recreation is independent of Nokia. Maze layouts, speed timings and bonus rules are approximations; firmware-exact behavior is not claimed.
+```bash
+uv run python -m scripts.render_fly_episode --seed 10 --frames-per-step 8 --layout landscape
+```
 
-Code and generated artwork are MIT licensed. The derived MaleCNS v1.0 connectome is CC BY 4.0 with attribution in THIRD_PARTY_DATA.md.
+Landscape is now the default video layout. The earlier composition is available with `--layout portrait`; its original video remains attached to v1.0.0.
+
+Code and generated artwork are MIT licensed. Derived MaleCNS v1.0 data is CC BY 4.0 with attribution in THIRD_PARTY_DATA.md.

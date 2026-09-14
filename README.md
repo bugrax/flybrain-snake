@@ -6,9 +6,9 @@
 
 A simulated fruit-fly connectome subcircuit plays a recreation of Nokia Snake II.
 
-[Watch the video](https://github.com/bugrax/flybrain-snake/releases/download/v1.0.0/flybrain-snake-linkedin.mp4) · [How it works](docs/science.md) · [Play it yourself](#play-it-yourself)
+[Watch the video](https://github.com/bugrax/flybrain-snake/releases/download/v1.0.1/flybrain-snake-landscape.mp4) · [How it works](docs/science.md) · [Play it yourself](#play-it-yourself)
 
-[![Flybrain Snake: actual simulation, with live spike activity](media/simulation.png)](https://github.com/bugrax/flybrain-snake/releases/download/v1.0.0/flybrain-snake-linkedin.mp4)
+[![Flybrain Snake: actual simulation, with live spike activity](media/simulation-landscape.png)](https://github.com/bugrax/flybrain-snake/releases/download/v1.0.1/flybrain-snake-landscape.mp4)
 
 **Real connectivity · Simulated spikes · No game-policy training**
 
@@ -59,13 +59,13 @@ This is an independent recreation. Exact original ROM behavior has not been veri
 
 ```bash
 uv run python -m scripts.render_fly_episode \
-  --seed 10 --frames-per-step 8 \
-  --out media/flybrain-snake-linkedin.mp4
+  --seed 10 --frames-per-step 8 --layout landscape \
+  --out media/flybrain-snake-landscape.mp4
 ```
 
-Produces a **1080 × 1350, 30 fps H.264/AAC MP4**, English captions, cover and simulation PNGs, and a JSON trace. The rendered raster and motor bars come from the same neural simulation that controls the snake. Audio is synthesized locally; no music or Nokia audio samples are used. FFmpeg can be installed separately or supplied by the bundled `imageio-ffmpeg` dependency.
+Produces a **1920 × 1080, 16:9, 30 fps H.264/AAC MP4**, English captions, cover and simulation PNGs, and a JSON trace. The rendered raster and motor bars come from the same neural simulation that controls the snake. Audio is synthesized locally; no music or Nokia audio samples are used. FFmpeg can be installed separately or supplied by the bundled `imageio-ffmpeg` dependency.
 
-The [release](https://github.com/bugrax/flybrain-snake/releases/tag/v1.0.0) includes the upload-ready video. The [LinkedIn post](docs/linkedin-post.md) is ready to copy.
+The [release](https://github.com/bugrax/flybrain-snake/releases/tag/v1.0.1) includes the upload-ready horizontal video. The full game screen sits beside the neuron panels with no cropping. Use `--layout portrait` to reproduce the earlier 4:5 composition. The [LinkedIn post](docs/linkedin-post.md) is ready to copy.
 
 ## Follow the signal
 

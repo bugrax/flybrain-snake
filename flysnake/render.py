@@ -310,8 +310,9 @@ class HudComposer:
         for (x, y), c in zip(xy, colors):
             draw.regular_polygon((float(x), float(y), r), n_sides=6, rotation=30, fill=tuple(int(v) for v in c))
 
-    def _draw_raster(self, img: Image.Image, draw: ImageDraw.ImageDraw, raster: np.ndarray | None) -> None:
-        inner = self._panel(draw, self.raster_box, "SPIKE RASTER / neurons x time / last 1 s")
+    def _draw_raster(self, img: Image.Image, draw: ImageDraw.ImageDraw, raster: np.ndarray | None,
+                     label: str = "SPIKE RASTER / neurons x time / last 1 s") -> None:
+        inner = self._panel(draw, self.raster_box, label)
         x0, y0, x1, y1 = inner
         w, h = x1 - x0, y1 - y0
         if raster is None or np.size(raster) == 0:

@@ -1,0 +1,2809 @@
+{
+  "seed": 10,
+  "level": 4,
+  "maze": 0,
+  "points": 16,
+  "food": 4,
+  "layout": "landscape",
+  "video_width": 1920,
+  "video_height": 1080,
+  "steps": 99,
+  "alive": false,
+  "won": false,
+  "duration_seconds": 31.4,
+  "playback_ticks_per_second": 3.75,
+  "brain_ms_per_tick": 250,
+  "neuron_count": 3189,
+  "synapse_count": 2100007,
+  "max_steps": 500,
+  "starvation": 220,
+  "termination": "game over",
+  "raster_neuron_ids": [
+    524616,
+    28204,
+    29359,
+    29979,
+    43910,
+    20112,
+    13697,
+    57264,
+    39108,
+    23719,
+    15508,
+    32090,
+    13974,
+    22831,
+    27334,
+    68728,
+    19659,
+    15471,
+    20933,
+    26811,
+    31033,
+    52329,
+    36783,
+    42452,
+    25446,
+    23930,
+    29803,
+    27689,
+    52783,
+    34351,
+    62280,
+    22505,
+    47206,
+    28654,
+    10573,
+    24505,
+    24035,
+    43865,
+    30993,
+    84104,
+    21165,
+    20399,
+    20542,
+    20859,
+    19954,
+    519650,
+    18432,
+    20282,
+    19543,
+    30480,
+    21804,
+    27624,
+    518544,
+    16128,
+    81112,
+    22847,
+    30803,
+    23098,
+    511914,
+    530029,
+    23929,
+    20967,
+    17054,
+    28945,
+    25636,
+    21562,
+    30938,
+    20162,
+    34372,
+    29183,
+    55627,
+    26393,
+    29014,
+    517078,
+    29216,
+    34655,
+    20269,
+    23550,
+    25209,
+    27471,
+    32237,
+    15804,
+    24568,
+    100103,
+    18929,
+    25524,
+    40811,
+    26528,
+    10360,
+    523769,
+    10442,
+    10760,
+    10975,
+    519624,
+    11066,
+    516170,
+    525960,
+    555726,
+    10837,
+    10884,
+    10117,
+    10197,
+    10752,
+    10989,
+    11137,
+    531898,
+    10106,
+    10259,
+    10001,
+    10010
+  ],
+  "bar_scale_spikes": 160,
+  "trace": [
+    {
+      "t": 0,
+      "score": 0,
+      "food_eaten": 0,
+      "head": [
+        10,
+        5
+      ],
+      "food": [
+        16,
+        7
+      ],
+      "action": 2,
+      "reason": "food: turn right",
+      "steer": [
+        0,
+        77
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 1,
+      "score": 0,
+      "food_eaten": 0,
+      "head": [
+        10,
+        6
+      ],
+      "food": [
+        16,
+        7
+      ],
+      "action": 0,
+      "reason": "straight",
+      "steer": [
+        0,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 2,
+      "score": 0,
+      "food_eaten": 0,
+      "head": [
+        10,
+        7
+      ],
+      "food": [
+        16,
+        7
+      ],
+      "action": 0,
+      "reason": "straight",
+      "steer": [
+        0,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 3,
+      "score": 0,
+      "food_eaten": 0,
+      "head": [
+        10,
+        8
+      ],
+      "food": [
+        16,
+        7
+      ],
+      "action": 0,
+      "reason": "straight",
+      "steer": [
+        0,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 4,
+      "score": 0,
+      "food_eaten": 0,
+      "head": [
+        10,
+        9
+      ],
+      "food": [
+        16,
+        7
+      ],
+      "action": 0,
+      "reason": "straight",
+      "steer": [
+        0,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 5,
+      "score": 0,
+      "food_eaten": 0,
+      "head": [
+        10,
+        0
+      ],
+      "food": [
+        16,
+        7
+      ],
+      "action": 1,
+      "reason": "food: turn left",
+      "steer": [
+        23,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 6,
+      "score": 0,
+      "food_eaten": 0,
+      "head": [
+        11,
+        0
+      ],
+      "food": [
+        16,
+        7
+      ],
+      "action": 2,
+      "reason": "food: turn right",
+      "steer": [
+        0,
+        32
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 7,
+      "score": 0,
+      "food_eaten": 0,
+      "head": [
+        11,
+        1
+      ],
+      "food": [
+        16,
+        7
+      ],
+      "action": 1,
+      "reason": "food: turn left",
+      "steer": [
+        37,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 8,
+      "score": 0,
+      "food_eaten": 0,
+      "head": [
+        12,
+        1
+      ],
+      "food": [
+        16,
+        7
+      ],
+      "action": 2,
+      "reason": "food: turn right",
+      "steer": [
+        0,
+        16
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 9,
+      "score": 0,
+      "food_eaten": 0,
+      "head": [
+        12,
+        2
+      ],
+      "food": [
+        16,
+        7
+      ],
+      "action": 1,
+      "reason": "food: turn left",
+      "steer": [
+        42,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 10,
+      "score": 0,
+      "food_eaten": 0,
+      "head": [
+        13,
+        2
+      ],
+      "food": [
+        16,
+        7
+      ],
+      "action": 2,
+      "reason": "food: turn right",
+      "steer": [
+        0,
+        24
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 11,
+      "score": 0,
+      "food_eaten": 0,
+      "head": [
+        13,
+        3
+      ],
+      "food": [
+        16,
+        7
+      ],
+      "action": 1,
+      "reason": "food: turn left",
+      "steer": [
+        91,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 12,
+      "score": 0,
+      "food_eaten": 0,
+      "head": [
+        14,
+        3
+      ],
+      "food": [
+        16,
+        7
+      ],
+      "action": 2,
+      "reason": "food: turn right",
+      "steer": [
+        0,
+        8
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 13,
+      "score": 0,
+      "food_eaten": 0,
+      "head": [
+        14,
+        4
+      ],
+      "food": [
+        16,
+        7
+      ],
+      "action": 1,
+      "reason": "food: turn left",
+      "steer": [
+        98,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 14,
+      "score": 0,
+      "food_eaten": 0,
+      "head": [
+        15,
+        4
+      ],
+      "food": [
+        16,
+        7
+      ],
+      "action": 2,
+      "reason": "food: turn right",
+      "steer": [
+        0,
+        15
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 15,
+      "score": 0,
+      "food_eaten": 0,
+      "head": [
+        15,
+        5
+      ],
+      "food": [
+        16,
+        7
+      ],
+      "action": 1,
+      "reason": "food: turn left",
+      "steer": [
+        103,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 16,
+      "score": 0,
+      "food_eaten": 0,
+      "head": [
+        16,
+        5
+      ],
+      "food": [
+        16,
+        7
+      ],
+      "action": 2,
+      "reason": "food: turn right",
+      "steer": [
+        0,
+        17
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 17,
+      "score": 0,
+      "food_eaten": 0,
+      "head": [
+        16,
+        6
+      ],
+      "food": [
+        16,
+        7
+      ],
+      "action": 0,
+      "reason": "straight",
+      "steer": [
+        17,
+        9
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 18,
+      "score": 4,
+      "food_eaten": 1,
+      "head": [
+        16,
+        7
+      ],
+      "food": [
+        11,
+        9
+      ],
+      "action": 2,
+      "reason": "food: turn right",
+      "steer": [
+        0,
+        8
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 19,
+      "score": 4,
+      "food_eaten": 1,
+      "head": [
+        15,
+        7
+      ],
+      "food": [
+        11,
+        9
+      ],
+      "action": 1,
+      "reason": "food: turn left",
+      "steer": [
+        101,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 20,
+      "score": 4,
+      "food_eaten": 1,
+      "head": [
+        15,
+        8
+      ],
+      "food": [
+        11,
+        9
+      ],
+      "action": 2,
+      "reason": "food: turn right",
+      "steer": [
+        0,
+        14
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 21,
+      "score": 4,
+      "food_eaten": 1,
+      "head": [
+        14,
+        8
+      ],
+      "food": [
+        11,
+        9
+      ],
+      "action": 1,
+      "reason": "food: turn left",
+      "steer": [
+        123,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 22,
+      "score": 4,
+      "food_eaten": 1,
+      "head": [
+        14,
+        9
+      ],
+      "food": [
+        11,
+        9
+      ],
+      "action": 2,
+      "reason": "food: turn right",
+      "steer": [
+        0,
+        8
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 23,
+      "score": 4,
+      "food_eaten": 1,
+      "head": [
+        13,
+        9
+      ],
+      "food": [
+        11,
+        9
+      ],
+      "action": 0,
+      "reason": "straight",
+      "steer": [
+        15,
+        9
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 24,
+      "score": 4,
+      "food_eaten": 1,
+      "head": [
+        12,
+        9
+      ],
+      "food": [
+        11,
+        9
+      ],
+      "action": 0,
+      "reason": "straight",
+      "steer": [
+        17,
+        9
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 25,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        11,
+        9
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 2,
+      "reason": "food: turn right",
+      "steer": [
+        0,
+        8
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 26,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        11,
+        8
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 2,
+      "reason": "food: turn right",
+      "steer": [
+        1,
+        37
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 27,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        12,
+        8
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 0,
+      "reason": "straight",
+      "steer": [
+        0,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 28,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        13,
+        8
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 0,
+      "reason": "straight",
+      "steer": [
+        0,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 29,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        14,
+        8
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 0,
+      "reason": "straight",
+      "steer": [
+        0,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 30,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        15,
+        8
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 0,
+      "reason": "straight",
+      "steer": [
+        0,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 31,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        16,
+        8
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 0,
+      "reason": "straight",
+      "steer": [
+        0,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 32,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        17,
+        8
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 0,
+      "reason": "straight",
+      "steer": [
+        0,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 33,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        18,
+        8
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 0,
+      "reason": "straight",
+      "steer": [
+        0,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 34,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        19,
+        8
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 0,
+      "reason": "straight",
+      "steer": [
+        0,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 35,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        20,
+        8
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 0,
+      "reason": "straight",
+      "steer": [
+        0,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 36,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        0,
+        8
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 1,
+      "reason": "food: turn left",
+      "steer": [
+        109,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 37,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        0,
+        7
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 2,
+      "reason": "food: turn right",
+      "steer": [
+        0,
+        15
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 38,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        1,
+        7
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 1,
+      "reason": "food: turn left",
+      "steer": [
+        124,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 39,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        1,
+        6
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 2,
+      "reason": "food: turn right",
+      "steer": [
+        0,
+        15
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 40,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        2,
+        6
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 1,
+      "reason": "food: turn left",
+      "steer": [
+        99,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 41,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        2,
+        5
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 2,
+      "reason": "food: turn right",
+      "steer": [
+        0,
+        24
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 42,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        3,
+        5
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 1,
+      "reason": "food: turn left",
+      "steer": [
+        111,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 43,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        3,
+        4
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 2,
+      "reason": "food: turn right",
+      "steer": [
+        0,
+        8
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 44,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        4,
+        4
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 1,
+      "reason": "food: turn left",
+      "steer": [
+        94,
+        2
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 45,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        4,
+        3
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 2,
+      "reason": "food: turn right",
+      "steer": [
+        0,
+        15
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 46,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        5,
+        3
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 1,
+      "reason": "food: turn left",
+      "steer": [
+        43,
+        5
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 47,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        5,
+        2
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 2,
+      "reason": "food: turn right",
+      "steer": [
+        0,
+        8
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 48,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        6,
+        2
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 0,
+      "reason": "straight",
+      "steer": [
+        22,
+        12
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 49,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        7,
+        2
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 0,
+      "reason": "straight",
+      "steer": [
+        14,
+        15
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 50,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        8,
+        2
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 1,
+      "reason": "food: turn left",
+      "steer": [
+        34,
+        8
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 51,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        8,
+        1
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 2,
+      "reason": "food: turn right",
+      "steer": [
+        0,
+        14
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 52,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        9,
+        1
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 2,
+      "reason": "food: turn right",
+      "steer": [
+        1,
+        65
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 53,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        9,
+        2
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 0,
+      "reason": "straight",
+      "steer": [
+        0,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 54,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        9,
+        3
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 0,
+      "reason": "straight",
+      "steer": [
+        0,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 55,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        9,
+        4
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 0,
+      "reason": "straight",
+      "steer": [
+        0,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 56,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        9,
+        5
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 0,
+      "reason": "straight",
+      "steer": [
+        0,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 57,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        9,
+        6
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 0,
+      "reason": "straight",
+      "steer": [
+        0,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 58,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        9,
+        7
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 0,
+      "reason": "straight",
+      "steer": [
+        0,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 59,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        9,
+        8
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 0,
+      "reason": "straight",
+      "steer": [
+        0,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 60,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        9,
+        9
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 0,
+      "reason": "straight",
+      "steer": [
+        0,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 61,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        9,
+        0
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 1,
+      "reason": "food: turn left",
+      "steer": [
+        21,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 62,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        10,
+        0
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 2,
+      "reason": "food: turn right",
+      "steer": [
+        0,
+        56
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 63,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        10,
+        1
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 1,
+      "reason": "food: turn left",
+      "steer": [
+        25,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 64,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        11,
+        1
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 2,
+      "reason": "food: turn right",
+      "steer": [
+        0,
+        55
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 65,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        11,
+        2
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 0,
+      "reason": "straight",
+      "steer": [
+        0,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 66,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        11,
+        3
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 0,
+      "reason": "straight",
+      "steer": [
+        0,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 67,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        11,
+        4
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 0,
+      "reason": "straight",
+      "steer": [
+        0,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 68,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        11,
+        5
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 0,
+      "reason": "straight",
+      "steer": [
+        0,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 69,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        11,
+        6
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 0,
+      "reason": "straight",
+      "steer": [
+        0,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 70,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        11,
+        7
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 0,
+      "reason": "straight",
+      "steer": [
+        0,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 71,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        11,
+        8
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 0,
+      "reason": "straight",
+      "steer": [
+        0,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 72,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        11,
+        9
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 0,
+      "reason": "straight",
+      "steer": [
+        0,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 73,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        11,
+        0
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 1,
+      "reason": "food: turn left",
+      "steer": [
+        103,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 74,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        12,
+        0
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 2,
+      "reason": "food: turn right",
+      "steer": [
+        0,
+        17
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 75,
+      "score": 8,
+      "food_eaten": 2,
+      "head": [
+        12,
+        1
+      ],
+      "food": [
+        12,
+        2
+      ],
+      "action": 0,
+      "reason": "straight",
+      "steer": [
+        17,
+        9
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 76,
+      "score": 12,
+      "food_eaten": 3,
+      "head": [
+        12,
+        2
+      ],
+      "food": [
+        3,
+        2
+      ],
+      "action": 2,
+      "reason": "food: turn right",
+      "steer": [
+        0,
+        8
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 77,
+      "score": 12,
+      "food_eaten": 3,
+      "head": [
+        11,
+        2
+      ],
+      "food": [
+        3,
+        2
+      ],
+      "action": 1,
+      "reason": "food: turn left",
+      "steer": [
+        19,
+        8
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 78,
+      "score": 12,
+      "food_eaten": 3,
+      "head": [
+        11,
+        3
+      ],
+      "food": [
+        3,
+        2
+      ],
+      "action": 2,
+      "reason": "food: turn right",
+      "steer": [
+        0,
+        8
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 79,
+      "score": 12,
+      "food_eaten": 3,
+      "head": [
+        10,
+        3
+      ],
+      "food": [
+        3,
+        2
+      ],
+      "action": 2,
+      "reason": "food: turn right",
+      "steer": [
+        3,
+        39
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 80,
+      "score": 12,
+      "food_eaten": 3,
+      "head": [
+        10,
+        2
+      ],
+      "food": [
+        3,
+        2
+      ],
+      "action": 0,
+      "reason": "straight",
+      "steer": [
+        0,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 81,
+      "score": 12,
+      "food_eaten": 3,
+      "head": [
+        10,
+        1
+      ],
+      "food": [
+        3,
+        2
+      ],
+      "action": 0,
+      "reason": "straight",
+      "steer": [
+        0,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 82,
+      "score": 12,
+      "food_eaten": 3,
+      "head": [
+        10,
+        0
+      ],
+      "food": [
+        3,
+        2
+      ],
+      "action": 0,
+      "reason": "straight",
+      "steer": [
+        0,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 83,
+      "score": 12,
+      "food_eaten": 3,
+      "head": [
+        10,
+        9
+      ],
+      "food": [
+        3,
+        2
+      ],
+      "action": 1,
+      "reason": "food: turn left",
+      "steer": [
+        22,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 84,
+      "score": 12,
+      "food_eaten": 3,
+      "head": [
+        9,
+        9
+      ],
+      "food": [
+        3,
+        2
+      ],
+      "action": 2,
+      "reason": "food: turn right",
+      "steer": [
+        0,
+        49
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 85,
+      "score": 12,
+      "food_eaten": 3,
+      "head": [
+        9,
+        8
+      ],
+      "food": [
+        3,
+        2
+      ],
+      "action": 1,
+      "reason": "food: turn left",
+      "steer": [
+        42,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 86,
+      "score": 12,
+      "food_eaten": 3,
+      "head": [
+        8,
+        8
+      ],
+      "food": [
+        3,
+        2
+      ],
+      "action": 2,
+      "reason": "food: turn right",
+      "steer": [
+        0,
+        32
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 87,
+      "score": 12,
+      "food_eaten": 3,
+      "head": [
+        8,
+        7
+      ],
+      "food": [
+        3,
+        2
+      ],
+      "action": 1,
+      "reason": "food: turn left",
+      "steer": [
+        42,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 88,
+      "score": 12,
+      "food_eaten": 3,
+      "head": [
+        7,
+        7
+      ],
+      "food": [
+        3,
+        2
+      ],
+      "action": 2,
+      "reason": "food: turn right",
+      "steer": [
+        0,
+        53
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 89,
+      "score": 12,
+      "food_eaten": 3,
+      "head": [
+        7,
+        6
+      ],
+      "food": [
+        3,
+        2
+      ],
+      "action": 1,
+      "reason": "food: turn left",
+      "steer": [
+        35,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 90,
+      "score": 12,
+      "food_eaten": 3,
+      "head": [
+        6,
+        6
+      ],
+      "food": [
+        3,
+        2
+      ],
+      "action": 2,
+      "reason": "food: turn right",
+      "steer": [
+        0,
+        44
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 91,
+      "score": 12,
+      "food_eaten": 3,
+      "head": [
+        6,
+        5
+      ],
+      "food": [
+        3,
+        2
+      ],
+      "action": 1,
+      "reason": "food: turn left",
+      "steer": [
+        40,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 92,
+      "score": 12,
+      "food_eaten": 3,
+      "head": [
+        5,
+        5
+      ],
+      "food": [
+        3,
+        2
+      ],
+      "action": 2,
+      "reason": "food: turn right",
+      "steer": [
+        0,
+        18
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 93,
+      "score": 12,
+      "food_eaten": 3,
+      "head": [
+        5,
+        4
+      ],
+      "food": [
+        3,
+        2
+      ],
+      "action": 1,
+      "reason": "food: turn left",
+      "steer": [
+        29,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 94,
+      "score": 12,
+      "food_eaten": 3,
+      "head": [
+        4,
+        4
+      ],
+      "food": [
+        3,
+        2
+      ],
+      "action": 2,
+      "reason": "food: turn right",
+      "steer": [
+        0,
+        28
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 95,
+      "score": 12,
+      "food_eaten": 3,
+      "head": [
+        4,
+        3
+      ],
+      "food": [
+        3,
+        2
+      ],
+      "action": 1,
+      "reason": "food: turn left",
+      "steer": [
+        28,
+        0
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 96,
+      "score": 12,
+      "food_eaten": 3,
+      "head": [
+        3,
+        3
+      ],
+      "food": [
+        3,
+        2
+      ],
+      "action": 2,
+      "reason": "food: turn right",
+      "steer": [
+        0,
+        8
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 97,
+      "score": 16,
+      "food_eaten": 4,
+      "head": [
+        3,
+        2
+      ],
+      "food": [
+        20,
+        7
+      ],
+      "action": 2,
+      "reason": "food: turn right",
+      "steer": [
+        0,
+        8
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 98,
+      "score": 16,
+      "food_eaten": 4,
+      "head": [
+        4,
+        2
+      ],
+      "food": [
+        20,
+        7
+      ],
+      "action": 2,
+      "reason": "food: turn right",
+      "steer": [
+        0,
+        50
+      ],
+      "escape": [
+        0,
+        0
+      ],
+      "giant_fiber": [
+        0,
+        0
+      ]
+    }
+  ]
+}

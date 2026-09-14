@@ -14,7 +14,7 @@ from pathlib import Path
 import numpy as np
 from flysnake.nokia import NokiaSnakeGame
 from flysnake.controller import FlyController, STEER_TYPES, ESCAPE_TYPES
-from flysnake.social import SocialComposer
+from flysnake.social import LandscapeComposer, SocialComposer
 from flysnake.video import VideoWriter, save_png, find_ffmpeg
 
 
@@ -40,7 +40,8 @@ def add_audio(silent, output, events, duration):
 def main():
     ap=argparse.ArgumentParser(description=__doc__)
     ap.add_argument('--seed',type=int,default=6)
-    ap.add_argument('--out',type=Path,default=Path('media/flybrain-snake-linkedin.mp4'))
+    ap.add_argument('--out',type=Path)
+    ap.add_argument('--layout', choices=('landscape', 'portrait'), default='landscape')
     ap.add_argument('--max-steps',type=int,default=500)
     ap.add_argument('--starvation',type=int,default=220)
     ap.add_argument('--level',type=int,choices=range(1,10),default=4)
@@ -48,11 +49,16 @@ def main():
     ap.add_argument('--fps',type=int,default=30)
     ap.add_argument('--frames-per-step',type=int,default=6)
     args=ap.parse_args()
+    if args.out is None:
+        name = 'flybrain-snake-landscape.mp4' if args.layout == 'landscape' else 'flybrain-snake-linkedin.mp4'
+        args.out = Path('media') / name
     if min(args.max_steps,args.starvation,args.fps,args.frames_per_step) <= 0:
         ap.error('step limits, fps and frames-per-step must be positive')
     args.out.parent.mkdir(parents=True,exist_ok=True)
     c=FlyController(); net=c.net
-    hud=SocialComposer(); game=NokiaSnakeGame(args.seed,args.level,args.maze)
+    hud=LandscapeComposer() if args.layout == 'landscape' else SocialComposer()
+    game=NokiaSnakeGame(args.seed,args.level,args.maze)
+    still_suffix = '-landscape' if args.layout == 'landscape' else ''
     selected=[]; rng=np.random.default_rng(0)
     for typ,k in [('LC10a',40),('LC4',24),('LPLC2',24)]:
         ids=net.ids(typ); selected.extend(rng.choice(ids,min(k,len(ids)),replace=False).tolist())
@@ -67,8 +73,8 @@ def main():
     silent=args.out.with_name(args.out.stem+'-silent.mp4')
     telemetry=[]; audio=[(0.3,660,0.15),(0.55,880,0.2)]
     nframes=0; began=time.monotonic(); best=-1
-    with VideoWriter(silent,fps=args.fps,size=(1080,1350),preset='fast') as video:
-        intro=frame('intro'); save_png(intro,args.out.with_name('cover.png'))
+    with VideoWriter(silent,fps=args.fps,size=(hud.width,hud.height),preset='fast') as video:
+        intro=frame('intro'); save_png(intro,args.out.with_name(f'cover{still_suffix}.png'))
         for _ in range(args.fps*2): video.write(intro); nframes+=1
         for step in range(args.max_steps):
             obs=game.observe(); action=c.act(obs); last=c.last
@@ -87,7 +93,7 @@ def main():
                 rendered=frame(reason=last['reason'])
                 video.write(rendered); nframes+=1
             if game.food_eaten > best:
-                best=game.food_eaten; save_png(rendered,args.out.with_name('simulation.png'))
+                best=game.food_eaten; save_png(rendered,args.out.with_name(f'simulation{still_suffix}.png'))
             telemetry.append(dict(t=game.t,score=game.score,food_eaten=game.food_eaten,
                                   head=list(game.head),food=list(game.food) if game.food else None,
                                   action=int(action),reason=last['reason'],steer=last['steer'],
@@ -103,6 +109,7 @@ def main():
     duration=nframes/args.fps
     add_audio(silent,args.out,audio,duration)
     result=dict(seed=args.seed,level=args.level,maze=args.maze,points=game.score,food=game.food_eaten,
+                layout=args.layout,video_width=hud.width,video_height=hud.height,
                 steps=game.t,alive=game.alive,won=game.won,duration_seconds=duration,
                 playback_ticks_per_second=args.fps/args.frames_per_step,
                 brain_ms_per_tick=c.ms,neuron_count=net.n,synapse_count=int(c.g['n_syn']),
