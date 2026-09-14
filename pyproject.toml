@@ -1,0 +1,26 @@
+[project]
+name = "flybrain-snake"
+version = "1.0.0"
+description = "MaleCNS fruit-fly visual circuits (LC10a/LC11/LC4/LPLC2 → descending neurons) playing Nokia Snake"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+  "pyarrow>=17",
+  "pandas>=2.2",
+  "numpy>=2",
+  "scipy>=1.14",
+  "pillow>=12.3.0",
+  "imageio-ffmpeg>=0.6.0",
+  "pygame-ce>=2.5.5",
+]
+
+[tool.uv]
+package = false
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

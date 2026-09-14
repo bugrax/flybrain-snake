@@ -1,0 +1,19 @@
+name: Test simulation and game
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: astral-sh/setup-uv@v10.1.0
+        with:
+          version: "latest"
+          enable-cache: true
+      - run: uv sync --locked
+      - run: uv run pytest -q
+      - run: uv run python -m flysnake.play --smoke-test
+      - run: uv run python -m flysnake.play --agent fly --smoke-test

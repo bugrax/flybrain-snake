@@ -1,0 +1,86 @@
+[
+  {
+    "seed": 0,
+    "score": 12,
+    "food": 3,
+    "steps": 301,
+    "alive": true
+  },
+  {
+    "seed": 1,
+    "score": 12,
+    "food": 3,
+    "steps": 322,
+    "alive": true
+  },
+  {
+    "seed": 2,
+    "score": 0,
+    "food": 0,
+    "steps": 220,
+    "alive": true
+  },
+  {
+    "seed": 3,
+    "score": 4,
+    "food": 1,
+    "steps": 236,
+    "alive": true
+  },
+  {
+    "seed": 4,
+    "score": 8,
+    "food": 2,
+    "steps": 349,
+    "alive": true
+  },
+  {
+    "seed": 5,
+    "score": 4,
+    "food": 1,
+    "steps": 236,
+    "alive": true
+  },
+  {
+    "seed": 6,
+    "score": 16,
+    "food": 4,
+    "steps": 315,
+    "alive": true
+  },
+  {
+    "seed": 7,
+    "score": 0,
+    "food": 0,
+    "steps": 220,
+    "alive": true
+  },
+  {
+    "seed": 8,
+    "score": 0,
+    "food": 0,
+    "steps": 220,
+    "alive": true
+  },
+  {
+    "seed": 9,
+    "score": 8,
+    "food": 2,
+    "steps": 316,
+    "alive": true
+  },
+  {
+    "seed": 10,
+    "score": 16,
+    "food": 4,
+    "steps": 99,
+    "alive": false
+  },
+  {
+    "seed": 11,
+    "score": 12,
+    "food": 3,
+    "steps": 292,
+    "alive": true
+  }
+]
